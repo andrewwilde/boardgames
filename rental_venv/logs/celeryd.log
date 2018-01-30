@@ -1,0 +1,764 @@
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named game_rental
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: Import by filename is not supported.
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 281, in execute_from_commandline
+    return self.handle_argv(self.prog_name, argv[1:])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 480, in handle_argv
+    return self.execute(command, argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 412, in execute
+    ).run_from_argv(self.prog_name, argv[1:], command=argv[0])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 219, in run_from_argv
+    *self.parse_options(prog_name, argv, command))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 403, in parse_options
+    self.parser = self.create_parser(prog_name, command)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 419, in create_parser
+    self.add_arguments(parser)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 275, in add_arguments
+    default=conf.worker_state_db,
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 130, in __getattr__
+    return self[k]
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 431, in __getitem__
+    return getitem(k)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 280, in __getitem__
+    return mapping[_key]
+  File "/home/andrew/projects/rental_venv/lib/python2.7/UserDict.py", line 36, in __getitem__
+    if key in self.data:
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/objects.py", line 44, in __get__
+    value = obj.__dict__[self.__name__] = self.__get(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 148, in data
+    return self.callback()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 911, in _finalize_pending_conf
+    conf = self._conf = self._load_config()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 921, in _load_config
+    self.loader.config_from_object(self._config_source)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/loaders/base.py", line 133, in config_from_object
+    self._conf = force_mapping(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 52, in force_mapping
+    return DictAttribute(m) if not isinstance(m, Mapping) else m
+  File "/home/andrew/projects/rental_venv/lib/python2.7/abc.py", line 131, in __instancecheck__
+    subclass = getattr(instance, '__class__', None)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named proj.settings
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 281, in execute_from_commandline
+    return self.handle_argv(self.prog_name, argv[1:])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 480, in handle_argv
+    return self.execute(command, argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 412, in execute
+    ).run_from_argv(self.prog_name, argv[1:], command=argv[0])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 219, in run_from_argv
+    *self.parse_options(prog_name, argv, command))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 403, in parse_options
+    self.parser = self.create_parser(prog_name, command)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 419, in create_parser
+    self.add_arguments(parser)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 275, in add_arguments
+    default=conf.worker_state_db,
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 130, in __getattr__
+    return self[k]
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 431, in __getitem__
+    return getitem(k)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 280, in __getitem__
+    return mapping[_key]
+  File "/home/andrew/projects/rental_venv/lib/python2.7/UserDict.py", line 36, in __getitem__
+    if key in self.data:
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/objects.py", line 44, in __get__
+    value = obj.__dict__[self.__name__] = self.__get(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 148, in data
+    return self.callback()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 911, in _finalize_pending_conf
+    conf = self._conf = self._load_config()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 921, in _load_config
+    self.loader.config_from_object(self._config_source)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/loaders/base.py", line 133, in config_from_object
+    self._conf = force_mapping(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 52, in force_mapping
+    return DictAttribute(m) if not isinstance(m, Mapping) else m
+  File "/home/andrew/projects/rental_venv/lib/python2.7/abc.py", line 131, in __instancecheck__
+    subclass = getattr(instance, '__class__', None)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named proj.settings
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 281, in execute_from_commandline
+    return self.handle_argv(self.prog_name, argv[1:])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 480, in handle_argv
+    return self.execute(command, argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 412, in execute
+    ).run_from_argv(self.prog_name, argv[1:], command=argv[0])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 219, in run_from_argv
+    *self.parse_options(prog_name, argv, command))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 403, in parse_options
+    self.parser = self.create_parser(prog_name, command)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 419, in create_parser
+    self.add_arguments(parser)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 275, in add_arguments
+    default=conf.worker_state_db,
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 130, in __getattr__
+    return self[k]
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 431, in __getitem__
+    return getitem(k)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 280, in __getitem__
+    return mapping[_key]
+  File "/home/andrew/projects/rental_venv/lib/python2.7/UserDict.py", line 36, in __getitem__
+    if key in self.data:
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/objects.py", line 44, in __get__
+    value = obj.__dict__[self.__name__] = self.__get(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 148, in data
+    return self.callback()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 911, in _finalize_pending_conf
+    conf = self._conf = self._load_config()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 921, in _load_config
+    self.loader.config_from_object(self._config_source)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/loaders/base.py", line 133, in config_from_object
+    self._conf = force_mapping(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 52, in force_mapping
+    return DictAttribute(m) if not isinstance(m, Mapping) else m
+  File "/home/andrew/projects/rental_venv/lib/python2.7/abc.py", line 131, in __instancecheck__
+    subclass = getattr(instance, '__class__', None)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named proj.settings
+Traceback (most recent call last):
+  File "/home/andrew/projects/rental_venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 281, in execute_from_commandline
+    return self.handle_argv(self.prog_name, argv[1:])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 480, in handle_argv
+    return self.execute(command, argv)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 412, in execute
+    ).run_from_argv(self.prog_name, argv[1:], command=argv[0])
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 219, in run_from_argv
+    *self.parse_options(prog_name, argv, command))
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 403, in parse_options
+    self.parser = self.create_parser(prog_name, command)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 419, in create_parser
+    self.add_arguments(parser)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/bin/worker.py", line 275, in add_arguments
+    default=conf.worker_state_db,
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 130, in __getattr__
+    return self[k]
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 431, in __getitem__
+    return getitem(k)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 280, in __getitem__
+    return mapping[_key]
+  File "/home/andrew/projects/rental_venv/lib/python2.7/UserDict.py", line 36, in __getitem__
+    if key in self.data:
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/kombu/utils/objects.py", line 44, in __get__
+    value = obj.__dict__[self.__name__] = self.__get(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 148, in data
+    return self.callback()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 911, in _finalize_pending_conf
+    conf = self._conf = self._load_config()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/app/base.py", line 921, in _load_config
+    self.loader.config_from_object(self._config_source)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/loaders/base.py", line 133, in config_from_object
+    self._conf = force_mapping(obj)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/utils/collections.py", line 52, in force_mapping
+    return DictAttribute(m) if not isinstance(m, Mapping) else m
+  File "/home/andrew/projects/rental_venv/lib/python2.7/abc.py", line 131, in __instancecheck__
+    subclass = getattr(instance, '__class__', None)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named proj.settings
+usage: celery worker [options] 
+celery: error: argument -l/--loglevel: expected one argument
+usage: celery worker [options] 
+celery: error: argument -l/--loglevel: expected one argument
+usage: celery worker [options] 
+celery: error: argument -l/--loglevel: expected one argument
+usage: celery worker [options] 
+celery: error: argument -l/--loglevel: expected one argument
+[2018-01-27 22:21:04,350: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2018-01-27 22:21:06,354: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 4.00 seconds...
+
+[2018-01-27 22:21:10,359: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 6.00 seconds...
+
+[2018-01-27 22:21:16,368: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 8.00 seconds...
+
+[2018-01-27 22:21:24,378: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 10.00 seconds...
+
+[2018-01-27 22:21:34,390: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 12.00 seconds...
+
+[2018-01-27 22:21:46,404: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 14.00 seconds...
+
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Cosmoputer v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-42-generic-x86_64-with-Ubuntu-16.04-xenial 2018-01-27 22:21:04
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         game_rental:0x7f7dcc4bdfd0
+- ** ---------- .> transport:   redis://localhost:6379/0
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[2018-01-27 22:21:48,465: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2018-01-27 22:21:50,468: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 4.00 seconds...
+
+[2018-01-27 22:21:54,474: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 6.00 seconds...
+
+[2018-01-27 22:22:00,481: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 8.00 seconds...
+
+[2018-01-27 22:22:08,491: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 10.00 seconds...
+
+[2018-01-27 22:22:18,502: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 12.00 seconds...
+
+[2018-01-27 22:22:30,516: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 14.00 seconds...
+
+[2018-01-27 22:22:44,530: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 16.00 seconds...
+
+[2018-01-27 22:23:00,548: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 18.00 seconds...
+
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Cosmoputer v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-42-generic-x86_64-with-Ubuntu-16.04-xenial 2018-01-27 22:21:48
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         game_rental:0x7fe86238ffd0
+- ** ---------- .> transport:   redis://localhost:6379/0
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[2018-01-27 22:23:16,162: WARNING/MainProcess] /home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Cosmoputer v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-42-generic-x86_64-with-Ubuntu-16.04-xenial 2018-01-27 22:23:14
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         game_rental:0x7fbb362e7fd0
+- ** ---------- .> transport:   redis://localhost:6379/0
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[2018-01-27 22:23:33,239: WARNING/MainProcess] /home/andrew/projects/rental_venv/local/lib/python2.7/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Cosmoputer v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-42-generic-x86_64-with-Ubuntu-16.04-xenial 2018-01-27 22:23:32
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         game_rental:0x7f0e63252fd0
+- ** ---------- .> transport:   redis://localhost:6379/0
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
