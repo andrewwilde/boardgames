@@ -1,0 +1,16 @@
+sudo apt-get install nodejs-legacy
+sudo apt-get install npm
+
+sudo npm install --global gulp-cli
+
+cd ~/projects/rental_venv/boardgames/front_end
+npm init
+npm install --save-dev gulp@next
+npm install --save-dev gulp-browserify
+npm install --save-dev partialify
+npm install --save-dev vueify
+npm install --save-dev vinyl-source-stream
+npm install --save-dev del
+nmp install --save-dev gulp-load-plugins
+... browser-sync
+ 

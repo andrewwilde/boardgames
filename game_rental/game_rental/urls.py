@@ -23,4 +23,5 @@ router.register('kickstarters', KickStarterViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-] + router.urls
+    url(r'^api/', include(router.urls))
+]

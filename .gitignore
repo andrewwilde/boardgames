@@ -1,1 +1,5 @@
 *.sqlite3
+*.pyc
+front_end/dist
+front_end/node_modules
+front_end/.serve
