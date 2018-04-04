@@ -13,9 +13,11 @@ var gulp = require('gulp'),
         app: 'src/app',
         styles: 'src/styles',
         serve: '.serve',
-        dist: 'dist'
+        dist: 'dist',
+        vue: 'src/app/vue'
     },
     files = glob.sync(paths.app + '/**/*.js'),
+    vue_files = glob.sync(paths.app + '/**/.vue'),
     browserSync = require('browser-sync');
 
 // General browsersync function
@@ -140,3 +142,4 @@ gulp.task('clean', function () {
 gulp.task('default', ['clean'], function () {
     gulp.start('serve');
 });
+
