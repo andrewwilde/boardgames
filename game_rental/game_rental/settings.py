@@ -25,7 +25,7 @@ SECRET_KEY = '%d8a*8pa0=6n80qbeyy6hxfqlu%o2%$2k!6e85fd&x3u^huhex'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-52-14-50-132.us-east-2.compute.amazonaws.com']
 
 
 # Application definition
@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'game_rental.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'gamedb',
+        'USER': 'gamedbuser',
+        'PASSWORD': '*gamedbuser@22*',
+        'HOST': 'localhost',
+        'PORT': 5432
     }
 }
 

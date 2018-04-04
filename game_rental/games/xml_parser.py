@@ -29,7 +29,7 @@ def get_description(xml):
         try:
             return item.text
         except Exception as e:
-            print "Failed to get description"
+            print("Failed to get description")
             return "None"
 
 def get_geek_rating(xml):
@@ -50,7 +50,7 @@ def get_xml_val(xml, tag):
         try:
             return item.attrib.get('value')
         except Exception as e:
-            print "Failed to get %s" % tag
+            print("Failed to get %s" % tag)
             return "None"
 
 def get_xml_iter(xml, attribute):

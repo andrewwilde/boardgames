@@ -9,6 +9,7 @@ class KickStarter(models.Model):
     id=models.UUIDField(primary_key=True, default=uuid4)
     slug=models.CharField(max_length=200)
     kickstarter_id=models.CharField(unique=True, max_length=50)
+    sort_category=models.CharField(max_length=20)
     category_id=models.CharField(max_length=5)
 
     @property

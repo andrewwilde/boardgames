@@ -1,8 +1,8 @@
 import requests
 
 from game_rental.celery import app
-from xml_parser import *
-from models import BoardGame
+from .xml_parser import *
+from .models import BoardGame
 
 @app.task
 def scan_boardgames():
@@ -30,7 +30,7 @@ def collect_game_data(type):
         try:
             game_xml = get_xml_by_id(','.join(id_str), type)
         except Exception as e:
-            print "XML not retrievable. e=%s" % str(e)
+            print("XML not retrievable. e=%s" % str(e))
             continue       
 
         for item in game_xml.iter('item'):
@@ -41,10 +41,10 @@ def collect_game_data(type):
             if game_dict:
                 try:
                     BoardGame.objects.get_or_create(**game_dict)
-                    print "#%i Created a BoardGame object for %s" % (bg_num, game_dict.get('name'))
+                    print("#%i Created a BoardGame object for %s" % (bg_num, game_dict.get('name')))
                     bg_num = bg_num + 1
                 except Exception as e:
-                    print "Unable to get or create boardgame object for %s" % game_dict.get('name')
+                    print("Unable to get or create boardgame object for %s" % game_dict.get('name'))
  
         current_id = current_id + CHUNK_SIZE
 
