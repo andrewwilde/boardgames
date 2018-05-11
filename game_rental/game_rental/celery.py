@@ -19,13 +19,13 @@ app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
 
 app.conf.beat_schedule = { 'popularity': { 'task': 'kickstarters.tasks.store_kickstarters',
                                             'schedule': crontab(hour=8, minute=0),
-                                            'args': ['popularity', 15] },
+                                            'args': ['popularity', 8] },
                            'end_date': { 'task': 'kickstarters.tasks.store_kickstarters',
                                             'schedule': crontab(hour=8, minute=0),
-                                            'args': ['newest', 15] },
+                                            'args': ['newest', 8] },
                            'newest':      { 'task': 'kickstarters.tasks.store_kickstarters',
                                             'schedule': crontab(hour=8, minute=0),
-                                            'args': ['end_date', 15] }
+                                            'args': ['end_date', 8] }
                          }
 
 # Load task modules from all registered Django app configs.

@@ -25,8 +25,8 @@ SECRET_KEY = '%d8a*8pa0=6n80qbeyy6hxfqlu%o2%$2k!6e85fd&x3u^huhex'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-52-14-50-132.us-east-2.compute.amazonaws.com']
-
+APPEND_SLASH = True
+ALLOWED_HOSTS = [ 'ec2-52-14-50-132.us-east-2.compute.amazonaws.com', 'everythingboardgames.com' ]
 
 # Application definition
 
@@ -37,12 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'rest_framework',
     'games',
     'kickstarters'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -133,3 +135,6 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = False

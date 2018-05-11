@@ -1,7 +1,7 @@
 {
   "name": "front_end",
   "version": "1.0.0",
-  "description": "",
+  "description": "sudo apt-get install nodejs-legacy sudo apt-get install npm",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,7 @@
     "browserify": "^13.0.0",
     "del": "^2.2.0",
     "glob": "^7.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^3.8.11",
     "gulp-concat": "^2.6.0",
     "gulp-inject": "^3.0.0",
     "gulp-load-plugins": "^1.2.0",
@@ -38,12 +38,16 @@
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
+    "browserify": "^13.3.0",
     "del": "^2.2.2",
+    "gulp": "^4.0.0",
     "gulp-browserify": "^0.5.1",
+    "gulp-inject": "^3.0.0",
     "gulp-load-plugins": "^1.5.0",
-    "node-sass": "^3.4.2",
+    "gulp-sass": "^2.3.2",
+    "node-sass": "^3.7.0",
     "partialify": "^3.1.6",
     "vinyl-source-stream": "^1.1.2",
-    "vueify": "^8.7.0"
+    "vueify": "^9.4.1"
   }
 }
