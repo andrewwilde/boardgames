@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 from uuid import uuid4
 from django.db import models
+from django.contrib.auth.models import User
 
 class BoardGame(models.Model):
     id=models.UUIDField(primary_key=True, default=uuid4)
@@ -20,3 +21,21 @@ class BoardGame(models.Model):
 
     class Meta:
         unique_together = (("name", "year_published"))
+
+
+    def __repr__(self):
+        return self.name
+
+    def __str__(self):
+        return self.name
+
+class OwnedGame(models.Model):
+    owner=models.ForeignKey(User, on_delete=models.CASCADE)
+    game=models.ForeignKey(BoardGame, on_delete=models.CASCADE)
+
+
+class BorrowedGame(models.Model):
+    ownedgame=models.ForeignKey(OwnedGame, models.Model)
+    borrower=models.ForeignKey(User, on_delete=models.CASCADE)
+
+

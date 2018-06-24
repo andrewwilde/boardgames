@@ -26,7 +26,8 @@ SECRET_KEY = '%d8a*8pa0=6n80qbeyy6hxfqlu%o2%$2k!6e85fd&x3u^huhex'
 DEBUG = True
 
 APPEND_SLASH = True
-ALLOWED_HOSTS = [ 'ec2-52-14-50-132.us-east-2.compute.amazonaws.com', 'everythingboardgames.com' ]
+#ALLOWED_HOSTS = [ 'ec2-52-14-50-132.us-east-2.compute.amazonaws.com', 'everythingboardgames.com' ]
+ALLOWED_HOSTS = [ '127.0.0.1', 'localhost' ]
 
 # Application definition
 
@@ -38,9 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'rest_framework',
     'games',
-    'kickstarters'
+    'kickstarters',
+    'users',
+    'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -78,14 +81,21 @@ WSGI_APPLICATION = 'game_rental.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'gamedb',
+#        'USER': 'gamedbuser',
+#        'PASSWORD': '*gamedbuser@22*',
+#        'HOST': 'localhost',
+#        'PORT': 5432
+#    }
+#}
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'gamedb',
-        'USER': 'gamedbuser',
-        'PASSWORD': '*gamedbuser@22*',
-        'HOST': 'localhost',
-        'PORT': 5432
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'boardgames'
     }
 }
 
@@ -127,12 +137,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/andrew/projects/rental_venv/game_rental/game_rental'
+STATIC_ROOT = '/home/andrew/projects/rental_venv/static'
 
 # Rest Framework Settings
 REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication'
+    ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+        'rest_framework.permissions.IsAuthenticated'
     ]
 }
 
